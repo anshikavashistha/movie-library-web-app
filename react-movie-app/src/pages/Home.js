@@ -1,6 +1,6 @@
 import React, { Fragment, useContext, useEffect } from "react";
 import AuthContext from "../context/auth/authContext";
-import Search from "../components/homeCompo/Search";
+import Search from "../components/homeCompo/MovieSearch";
 import { Link } from "react-router-dom";
 
 const Home = () => {

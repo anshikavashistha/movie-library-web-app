@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import "./App.css";
 import AuthState from "./context/auth/AuthState";
-import WatchlistState from "./context/watchlist/WatchlistState";
+import WatchlistState from "./context/watchlist/watchlistState";
 import {
   BrowserRouter as Router,
   Redirect,

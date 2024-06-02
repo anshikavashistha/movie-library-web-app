@@ -3,6 +3,8 @@ import AuthContext from "../context/auth/authContext";
 import PlaylistCard from "../components/homeCompo/PlaylistCard";
 
 function PlaylistPage() {
+
+
   const authContext = useContext(AuthContext);
   const { user } = authContext;
   const userName = <div>{user && user.name}'s Playlists</div>;
