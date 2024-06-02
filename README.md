@@ -32,3 +32,9 @@ cd react-movie-app
 npm install
 npm start
 
+#### Backend
+
+```bash
+
+
+
